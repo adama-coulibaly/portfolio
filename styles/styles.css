@@ -464,7 +464,7 @@ section {
 }
 .portfolios .portfolio-item .hover-items .icons .icon i {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-secondary);
   margin: 0 1rem;
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
