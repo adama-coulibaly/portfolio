@@ -45,6 +45,19 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
+.submits-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.liens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ gap: 10px;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -264,11 +277,12 @@ section {
 .about-container .left-about p {
   line-height: 2rem;
   padding: 1rem;
-  color: var(--color-grey-1);
+  color: var(--color-secondary);
 }
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
+  color: var(--color-secondary);
 }
 
 .about-stats {
@@ -626,10 +640,10 @@ section {
 }
 
 /*Independed components*/
-.btn-con {
+/* .btn-con {
   display: flex;
   align-self: flex-start;
-}
+} */
 
 .main-btn {
   border-radius: 30px;
