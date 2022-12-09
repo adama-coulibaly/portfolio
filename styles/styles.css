@@ -22,8 +22,8 @@
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
-/* .light-mode {
-  --color-primary: #191d2b;
+.light-mode {
+  --color-primary: #8da1ec;
   --color-secondary: #f00f47;
   --color-white: #FFFFFF;
   --color-black: #000;
@@ -35,7 +35,7 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
 
-} */
+}
 
 body {
   background-color: var(--color-primary);
@@ -243,6 +243,7 @@ section {
   transform: translateY(-5px);
   border: 1px solid var(--color-secondary);
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+  background-color: white;
 }
 .about-container .right-about .about-item .abt-text {
   padding: 1.5rem;
@@ -259,7 +260,7 @@ section {
   position: relative;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: var(--color-grey-1);
+  color: var(--color-secondary);
   letter-spacing: 2px;
 }
 .about-container .right-about .about-item .abt-text .small-text::before {
